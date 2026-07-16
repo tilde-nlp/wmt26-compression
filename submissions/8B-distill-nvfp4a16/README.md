@@ -1,17 +1,15 @@
-# 15B-GPTQ-nvfp4a16
+# 8B-distill
 
-- Model: TildeOpen15B-64k-wmt26-compression-task-cs-de-fp4a16
+- Model: TildeOpen8B-64k-wmt26-compression-task-cs-de-fp4a16
 - Parent model: TildeOpen15B-64k-wmt26-compression-task-cs-de
-- Params: 15B
-- Size: 10.1 GB
+- Params: 8B
+- Size: 5.7 GB
 - Supported languages: cs-de
 - Quantization: calibration-based GPTQ PTQ with static NVFP4 weight quantization and BF16 activations.
 - Quantization serialization: llm-compressor
-- HF repo: [TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp4a16](https://huggingface.co/TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp4a16)
-- Training: SFT + GRPO
+- HF repo: [TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp4a16](https://huggingface.co/TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp4a16)
+- Training: Distilled from *Parent model* using [Nvidia-NEMO](https://github.com/nvidia-nemo) + further GRPO
 - Runtime: vLLM
-
-**NOTE:** This is PRIMARY submission.
 
 ## Setup
 
