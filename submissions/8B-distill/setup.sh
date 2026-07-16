@@ -4,7 +4,7 @@ set -euo pipefail
 ROOT=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)
 IMAGE="vllm/vllm-openai:v0.24.0-x86_64-cu129-ubuntu2404"
 MODEL_ID="TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de"
-MODEL_CACHE="/mnt/tg/data/projects/wmt26/model-compression/models"
+MODEL_CACHE=${MODEL_CACHE:-"$ROOT/workdir/models"}
 MODEL_LINK="$ROOT/workdir/model"
 
 

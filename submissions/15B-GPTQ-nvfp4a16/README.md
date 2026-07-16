@@ -21,7 +21,7 @@ bash setup.sh
 Requires docker permissions. No python environment is needed.
 
 - Pulls the following docker image: vllm/vllm-openai:v0.24.0-x86_64-cu129-ubuntu2404
-- Downloads the model from HF repo via the docker to cache folder
+- Downloads the model from HF repo via the docker to a cache folder (default: `workdir/models` next to the script; override with the `MODEL_CACHE` env var)
 - Links to workdir/model
 
 ## Run
