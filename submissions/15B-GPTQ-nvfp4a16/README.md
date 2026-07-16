@@ -1,11 +1,11 @@
-# Baseline model
+# 15B-GPTQ-nvfp4a16
 
-- Model: TildeOpen15B-64k-wmt26-compression-task-cs-de
-- Parent model: None
+- Model: TildeOpen15B-64k-wmt26-compression-task-cs-de-fp4a16
+- Parent model: TildeOpen15B-64k-wmt26-compression-task-cs-de
 - Params: 15B
 - Supported languages: cs-de
-- Quantization: None
-- HF repo: [TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de](https://huggingface.co/TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de)
+- Quantization: GPTQ-nvfp4a16 with calibration dataset
+- HF repo: [TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp4a16](https://huggingface.co/TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp4a16)
 - Training: SFT + GRPO
 - Runtime: vLLM
 
