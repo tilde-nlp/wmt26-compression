@@ -1,2 +1,5 @@
 .history*
 *.txt
+!requirements.txt
+workdir
+.docker-image
