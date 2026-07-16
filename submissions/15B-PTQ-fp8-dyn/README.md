@@ -1,13 +1,13 @@
-# 15B-GPTQ-nvfp4a16
+# 15B-PTQ-fp8-dyn
 
-- Model: TildeOpen15B-64k-wmt26-compression-task-cs-de-fp4a16
+- Model: TildeOpen15B-64k-wmt26-compression-task-cs-de-fp8-dyn
 - Parent model: TildeOpen15B-64k-wmt26-compression-task-cs-de
 - Params: 15B
-- Size: 10.1 GB
+- Size: 16.3 GB
 - Supported languages: cs-de
-- Quantization: GPTQ-nvfp4a16 with calibration dataset
+- Quantization: RTN PTQ FP8 weights and dynamic per-token FP8 activation
 - Quantization serialization: llm-compressor
-- HF repo: [TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp4a16](https://huggingface.co/TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp4a16)
+- HF repo: [TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp8-dyn](https://huggingface.co/TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de-fp8-dyn)
 - Training: SFT + GRPO
 - Runtime: vLLM
 

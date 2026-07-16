@@ -3,8 +3,10 @@
 - Model: TildeOpen15B-64k-wmt26-compression-task-cs-de
 - Parent model: None
 - Params: 15B
+- Size: 30.3 GB
 - Supported languages: cs-de
 - Quantization: None
+- Quantization serialization: None
 - HF repo: [TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de](https://huggingface.co/TildeAI/TildeOpen15B-64k-wmt26-compression-task-cs-de)
 - Training: SFT + GRPO
 - Runtime: vLLM
