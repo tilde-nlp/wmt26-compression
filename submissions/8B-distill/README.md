@@ -1,14 +1,14 @@
 # 8B-distill
 
 - Model: TildeOpen8B-64k-wmt26-compression-task-cs-de
-- Parent model: TildeOpen15B-64k-wmt26-compression-task-cs-de
+- Parent model: TildeOpen15B-64k
 - Params: 8B
 - Size: 16.3 GB
 - Supported languages: cs-de
 - Quantization: None
 - Quantization serialization: None
 - HF repo: [TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de](https://huggingface.co/TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de)
-- Training: Distilled from *Parent model* using [Nvidia-NEMO](https://github.com/nvidia-nemo) + further GRPO
+- Training: Distilled from *Parent model* using [Nvidia-NEMO](https://github.com/nvidia-nemo) + further SFT
 - Runtime: vLLM
 
 ## Setup
