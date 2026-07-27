@@ -1,7 +1,7 @@
 # Baseline model
 
 - Model: TildeOpen15B-64k-wmt26-compression-task-cs-de
-- Parent model: None
+- Parent model: TildeOpen15B-64k (distilled from [TildeAI/TildeOpen-30b-64k](https://huggingface.co/TildeAI/TildeOpen-30b-64k), not part of submission)
 - Params: 15B
 - Size: 30.3 GB
 - Supported languages: cs-de
